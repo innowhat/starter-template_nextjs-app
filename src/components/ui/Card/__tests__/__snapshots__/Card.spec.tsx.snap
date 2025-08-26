@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card > renders with default props 1`] = `
+<div
+  class="_card_ae67d6 _default_ae67d6 "
+  data-testid="card"
+>
+  Default Card
+</div>
+`;

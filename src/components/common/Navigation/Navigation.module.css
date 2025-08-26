@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #1f2937;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}

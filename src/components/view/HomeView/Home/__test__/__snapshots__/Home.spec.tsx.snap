@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home > renders with title from siteData 1`] = `
+<h1>
+  NextJS App/Page Router Flexible/Customizable Starter Template
+</h1>
+`;

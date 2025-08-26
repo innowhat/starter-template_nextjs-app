@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input > renders with default props 1`] = `
+<input
+  class="_input_f35072 _md_f35072 _default_f35072 "
+  data-testid="input"
+  placeholder="Enter text"
+/>
+`;

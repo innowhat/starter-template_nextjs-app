@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navigation Component > renders the logo 1`] = `
+<span
+  class="_logo_25bb76"
+>
+  LOGO
+</span>
+`;

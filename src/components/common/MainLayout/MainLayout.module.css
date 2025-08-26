@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-height: 80vh;
+    background-color: gainsboro;
+    padding: 2rem;
+}

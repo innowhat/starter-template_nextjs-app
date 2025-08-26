@@ -1,0 +1,160 @@
+{
+    "siteConfig": {
+        "name": "NextJS Simple Starter",
+        "title": "Next.js Simple Starter Template",
+        "description": "A clean and minimal Next.js starter template with App Router. Perfect for small websites and landing pages.",
+        "url": "https://nextjs-simple-starter.vercel.app",
+        "keywords": ["nextjs", "react", "starter-template", "minimal", "clean"],
+        "author": {
+            "name": "Your Name",
+            "email": "hello@example.com"
+        },
+        "version": "1.0.0",
+        "locale": "en-US"
+    },
+    "metaData": {
+        "openGraph": {
+            "type": "website",
+            "siteName": "NextJS Simple Starter",
+            "title": "Next.js Simple Starter Template",
+            "description": "A clean and minimal Next.js starter template with App Router",
+            "url": "#",
+            "image": "/og-image.png"
+        },
+        "favicon": "/favicon.ico"
+    },
+    "navigation": {
+        "main": [
+            {
+                "title": "Home",
+                "href": "/",
+                "description": "Homepage"
+            },
+            {
+                "title": "About",
+                "href": "/about",
+                "description": "About us"
+            },
+            {
+                "title": "Contact",
+                "href": "/contact",
+                "description": "Get in touch"
+            }
+        ]
+    },
+    "pages": {
+        "home": {
+            "title": "NextJS App/Page Router Flexible/Customizable Starter Template",
+            "subtitle": "A clean and minimal starter template",
+            "description": "Get started with Next.js 14 and App Router. This template includes everything you need to build a simple, fast, and modern website.",
+            "heroImage": "/images/hero.jpg",
+            "features": [
+                {
+                    "title": "Next.js 15",
+                    "description": "Built with the latest Next.js and App Router",
+                    "icon": "⚡"
+                },
+                {
+                    "title": "TypeScript",
+                    "description": "Fully typed for better development experience",
+                    "icon": "🔷"
+                },
+                {
+                    "title": "CSS Modules",
+                    "description": "Scoped styles for better maintainability",
+                    "icon": "🎨"
+                },
+                {
+                    "title": "Vitest",
+                    "description": "Unit tests included for reliability",
+                    "icon": "🧪"
+                }
+            ],
+            "cta": {
+                "title": "Get Started",
+                "description": "Ready to build something amazing?",
+                "buttonText": "Contact Us",
+                "buttonLink": "/contact"
+            }
+        },
+        "about": {
+            "title": "About Us",
+            "subtitle": "Learn more about this project",
+            "content": [
+                {
+                    "heading": "What is this?",
+                    "text": "This is a simple Next.js starter template designed for small websites and landing pages. It includes only the essentials you need to get started quickly."
+                },
+                {
+                    "heading": "Why use this template?",
+                    "text": "Unlike complex starters with many features you might not need, this template focuses on simplicity and performance. Perfect for portfolios, landing pages, or small business websites."
+                },
+                {
+                    "heading": "What's included?",
+                    "text": "Next.js 14 with App Router, TypeScript, Tailwind CSS, and basic SEO setup. That's it - clean and simple."
+                }
+            ],
+            "image": "/images/about.jpg",
+            "stats": [
+                {
+                    "label": "Bundle Size",
+                    "value": "< 100kb",
+                    "description": "Minimal and optimized"
+                },
+                {
+                    "label": "Page Speed",
+                    "value": "100/100",
+                    "description": "Perfect Lighthouse score"
+                },
+                {
+                    "label": "Setup Time",
+                    "value": "< 5 min",
+                    "description": "Quick to get started"
+                }
+            ]
+        }
+    },
+
+    "features": [
+        "Next.js 14 with App Router",
+        "TypeScript support",
+        "Tailwind CSS styling",
+        "SEO optimized",
+        "Responsive design",
+        "Fast and lightweight"
+    ],
+    "gettingStarted": {
+        "installation": [
+            "Clone the repository",
+            "Run `npm install`",
+            "Update site config with your information",
+            "Run `npm run dev` to start development"
+        ],
+        "customization": [
+            "Edit this JSON file for site content",
+            "Update colors in `tailwind.config.js`",
+            "Replace images in `/public/images/`",
+            "Modify components in `/components/`"
+        ]
+    },
+    "footer": {
+        "copyright": "© 2024 NextJS Simple Starter. All rights reserved.",
+        "links": [
+            {
+                "title": "Privacy Policy",
+                "href": "/privacy"
+            },
+            {
+                "title": "Terms of Service",
+                "href": "/terms"
+            }
+        ]
+    },
+    "theme": {
+        "primaryColor": "#3b82f6",
+        "secondaryColor": "#1e40af",
+        "accentColor": "#f59e0b",
+        "backgroundColor": "#ffffff",
+        "textColor": "#1f2937"
+    }
+}

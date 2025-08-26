@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button > renders with default props 1`] = `
+<button
+  class="_button_273f36 _primary_273f36 _md_273f36 "
+  data-testid="button"
+>
+  Click Me
+</button>
+`;
