@@ -16,7 +16,7 @@
         "e2e:ci": "playwright test",
         "postinstall": "husky install",
         "preCommit": "npm run lint:check && npm run format:check",
-        "clean": "rm -rf .next .swc node_modules coverage package-lock.json"
+        "clean": "rm -rf .next .swc node_modules coverage package-lock.json playwright-report"
     },
     "dependencies": {
         "next": "16.1.1",
