@@ -4,7 +4,7 @@
 
 # Next.js Starter Template
 
-Starter template** for building modern [Next.js](https://nextjs.org) applications, bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) 
+Starter template\*\* for building modern [Next.js](https://nextjs.org) applications, bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
 
 A unique feature of this template is its dual-router support. It comes configured with the modern **App Router** by default, while maintaining full compatibility with the traditional **Pages Router**. The modular architecture allows seamless switching between routing strategies without major refactoring.
 
