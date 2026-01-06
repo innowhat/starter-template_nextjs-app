@@ -6,8 +6,8 @@
         "dev": "next dev --turbopack",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint --fix",
-        "lint:check": "next lint",
+        "lint": "eslint . --fix",
+        "lint:check": "eslint .",
         "format": "prettier --write .",
         "format:check": "prettier --check .",
         "test": "vitest",
@@ -16,30 +16,29 @@
         "e2e:ci": "playwright test",
         "postinstall": "husky install",
         "preCommit": "npm run lint:check && npm run format:check",
-        "clean": "rm -rf .next .swc node_modules coverage package-lock.json"
+        "clean": "rm -rf .next .swc node_modules coverage package-lock.json playwright-report"
     },
     "dependencies": {
-        "next": "15.4.5",
-        "react": "19.1.0",
-        "react-dom": "19.1.0"
+        "next": "16.1.1",
+        "react": "19.2.3",
+        "react-dom": "19.2.3"
     },
     "devDependencies": {
-        "@eslint/eslintrc": "^3",
-        "@playwright/test": "^1.54.2",
-        "@testing-library/jest-dom": "^6.8.0",
-        "@testing-library/react": "^16.3.0",
-        "@types/node": "^20",
+        "@playwright/test": "^1.57.0",
+        "@testing-library/jest-dom": "^6.9.1",
+        "@testing-library/react": "^16.3.1",
+        "@types/node": "^25",
         "@types/react": "^19",
         "@types/react-dom": "^19",
-        "@vitejs/plugin-react": "^5.0.1",
-        "eslint": "^9",
-        "eslint-config-next": "15.4.5",
+        "@vitejs/plugin-react": "^5.1.2",
+        "eslint": "^9.39.2",
+        "eslint-config-next": "^16.1.1",
         "eslint-config-prettier": "^10.1.8",
         "husky": "^9.1.7",
-        "jsdom": "^26.1.0",
-        "prettier": "3.6.2",
+        "jsdom": "^27.4.0",
+        "prettier": "3.7.4",
         "ts-node": "^10.9.2",
         "typescript": "^5",
-        "vitest": "^3.2.4"
+        "vitest": "^4.0.16"
     }
 }
